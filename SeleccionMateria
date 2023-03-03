@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eleccion de materias </title>
+</head>
+<body>
+
+    <h1>Selección de materias</h1>
+    <form>
+        <fieldset>
+            <legend>Semestre</legend>
+            <label>
+    <select id="semestre">
+        <option type="radio" value="1" name="semestre"  >Primer semestre</option>
+        <option  type="radio" value="2" name="semestre" >Segundo semestre</option>
+        <option  type="radio" value="3" name="semestre" >tercero semestre</option>
+        <option  type="radio" value="4" name="semestre" >Cuarto semestre</option>
+        <option  type="radio" value="5" name="semestre" >Quinto semestre</option>
+        <option  type="radio" value="6" name="semestre" >Sexto semestre</option>
+        <option  type="radio" value="7" name="semestre" >Septimo semestre</option>
+        <option  type="radio" value="8" name="semestre" >Octavo semestre</option>
+        <option  type="radio" value="9" name="semestre" >Noveno semestre</option>
+    </select>
+
+
+
+
+    </fieldset>
+    <br>
+    <fieldset>
+        <form class= "formulario">
+            <h2>Puedes elegir tus materias del semestre</h2><b2>
+                <h3>Area Basica</h3>
+        <label>
+            <input type="checkbox" name="materia" value="Adiministracion" data-semestre=" 1 2 3 4 5 6 7 8 9">
+            Adiministracion 
+        </label><br>
+        
+        <label>
+            <input type="checkbox" name="materia" value="Sociologia" data-semestre=" 1 2 3 4 5 6 7 8 9 ">
+            Sociologia 
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="materia" value="Tecnicas de Negocio" data-semestre=" 1 2 3 4 5 6 7 8 9 ">
+            Tecnicas de Negocio 
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="materia" value="Microeconomia" data-semestre=" 1 2 3 4 5 6 7 8 9 ">
+            Microeconomia 
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="materia" value="Contabilidad" data-semestre=" 1 ">
+            Contabilidad 
+        </label><br>
+        <label>
+            <input type="checkbox" name="materia" value="Costos y Presupuestos" data-semestre=" 2 3 4 5 6 7 ">
+            Costos y Presupuestos 
+        </label><br>
+        <label>
+            <input type="checkbox" name="materia" value="Administracion Financiera" data-semestre=" 1 2 3 4 5 6 7 8 9 ">
+            Administracion Financiera
+        </label><br>
+        <label>
+            <input type="checkbox" name="materia" value="La funcion Informatica" data-semestre=" 1 2 3 4 5 6 7 8 9 ">
+            La funcion Informatica 
+        </label><br>
+        <label>
+            <input type="checkbox" name="materia" value=" Hoja de Calculo" data-semestre=" 1 2 3 4 5 6 7 8 9 ">
+            Hoja de Calculo 
+        </label><br>
+        <label>
+            <input type="checkbox" name="materia" value=" Procesador de Texto y Presentaciones Electronicas  " data-semestre=" 1 2 3 4 5 6 7 8 9 ">
+            Procesador de Texto y Presentaciones Electronicas 
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="materia" value=" Hoja de Calculo " data-semestre=" 1 2 3 4 5 6 7 8 9 ">
+            Hoja de Calculo
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="materia" value="Algebra " data-semestre=" 1 2 3 4 5 6 7 8 9 ">
+            Algebra
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="materia" value="  Matematicas Discretas " data-semestre=" 1 2 3 4 5 6 7 8 9 ">
+            Matematicas Discretas
+        </label><br>
+
+           
+        <label>
+            <input type="checkbox" name="materia" value=" Calculo " data-semestre=" 1 2 3 4 5 6 7 8 9 ">
+            Calculo
+        </label><br>
+
+        
+        <label>
+            <input type="checkbox" name="materia" value=" Estadisticas " data-semestre=" 1 2 3 4 5 6 7 8 9 ">
+            Estadisticas
+        </label><br>
+
+        
+        <label>
+            <input type="checkbox" name="materia" value=" Investigaciones de Operaciones " data-semestre=" 1 2 3 4 5 6 7 8 9 ">
+            Investigaciones de Operaciones
+        </label><br>
+
+
+        
+        <label>
+            <input type="checkbox" name="materia" value="   Evaluaciion de proyectos de Inversion " data-semestre=" 1 2 3 4 5 6 7 8 9 ">
+            Evaluacion de proyectos de Inversion
+        </label><br>
+
+
+        
+        <label>
+            <input type="checkbox" name="materia" value=" Probalidad " data-semestre=" 1 2 3 4 5 6 7 8 9 ">
+            Probalidad
+        </label><br>
+
+
+        
+        <label>
+            <input type="checkbox" name="materia" value=" Ingles I " data-semestre=" 1  ">
+            Ingles I
+        </label><br>
+
+
+        
+        <label>
+            <input type="checkbox" name="materia" value="  Ingles II " data-semestre="  2  ">
+            Ingles II
+        </label><br>
+
+
+        <label>
+            <input type="checkbox" name="materia" value=" Ingles III " data-semestre="  3  ">
+            Ingles III
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="materia" value=" Ingles IV " data-semestre=" 1 2 3 4 5 6 7 8 9 ">
+            Ingles IV
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="materia" value=" Ingles V " data-semestre=" 1 2 3 4 5 6 7 8 9 ">
+            Ingles V
+        </label><br>
+
+
+
+        
+        
+
+
+
+
+        
+    <h3>Area Profesional</h3>
+        <label>
+            <input type="checkbox" name="materia" value="Ingeneria de Sofware II" data-semestre="2 3 4 5 6 7 8 9">
+            Ingeneria de Sofware II
+        </label><br>
+
+
+        <label>
+            <input type="checkbox" name="materia" value=" Arquitectura de Computadoras" data-semestre="2 3 4 5 6 7 8 9">
+            Arquitectura de Computadoras
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="materia" value=" Analisis de requerimientos de SW " data-semestre="2 3 4 5 6 7 8 9">
+            Analisis de requerimientos de SW 
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="materia" value=" Fundamentos de programacion " data-semestre="2 3 4 5 6 7 8 9">
+            Fundamentos de programacion
+        </label><br>
+
+
+        <label>
+            <input type="checkbox" name="materia" value=" Comunicacion de Datos  " data-semestre="2 3 4 5 6 7 8 9">
+            Comunicacion de Datos 
+        </label><br>
+
+        
+        <label>
+            <input type="checkbox" name="materia" value=" Redes de Computadoras I " data-semestre="2 3 4 5 6 7 8 9">
+            Redes de Computadoras I 
+        </label><br>
+
+        
+
+        <label>
+            <input type="checkbox" name="materia" value=" Redes de Computadoras II " data-semestre="2 3 4 5 6 7 8 9">
+            Redes de Computadoras II 
+        </label><br>
+
+
+        <label>
+            <input type="checkbox" name="materia" value=" Teoria de Lenguajes  y compiladores  " data-semestre="2 3 4 5 6 7 8 9">
+            Teoria de lenguajes y Compiladores
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="materia" value=" Sistema Operativos   " data-semestre="2 3 4 5 6 7 8 9">
+            Sistema Operativos
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="materia" value=" Laboratorios de Computo " data-semestre="2 3 4 5 6 7 8 9">
+            Laboratorios de Computo
+        </label><br>
+
+
+        <label>
+            <input type="checkbox" name="materia" value=" Laboratorio de Sistema Abiertos y Comunicacion " data-semestre="2 3 4 5 6 7 8 9">
+            Laboratorio de Sistema Abiertos y Comunicacion
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="materia" value=" Metodologia  de la Programación " data-semestre="2 3 4 5 6 7 8 9">
+            Metodologia  de la Programación
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="materia" value=" Algoritmica y Estructura de Datos I " data-semestre="2 3 4 5 6 7 8 9">
+            Algoritmica y Estructura de Datos I
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="materia" value=" Algoritmica y Estructura de Datos II  " data-semestre="2 3 4 5 6 7 8 9">
+            Algoritmica y Estructura de Datos II
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="materia" value=" Algoritmica y Estructura de Datos II  " data-semestre="2 3 4 5 6 7 8 9">
+            Algoritmica y Estructura de Datos II
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="materia" value=" Prograacion Estructura " data-semestre="2 3 4 5 6 7 8 9">
+            Programacion Estructura
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="materia" value="  Programacion concurrente " data-semestre="2 3 4 5 6 7 8 9">
+            Programacion concurrente
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="materia" value=" Desarrollo de Aplicaciones  " data-semestre="2 3 4 5 6 7 8 9">
+            Desarrollo de Aplicaciones
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="materia" value=" Desarrollo de Aplicaciones web  " data-semestre="2 3 4 5 6 7 8 9">
+            Desarrollo de Aplicaciones web
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="materia" value="  Desarrollo de Aplicaciones moviles  " data-semestre="2 3 4 5 6 7 8 9">
+            Desarrollo de Aplicaciones moviles
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="materia" value=" Programacion Orientada a Objetos I " data-semestre="2 3 4 5 6 7 8 9">
+            Programacion Orientada a Objetos I
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="materia" value=" Programacion Orientada a Objetos II  " data-semestre="2 3 4 5 6 7 8 9">
+            Programacion Orientada a Objetos II
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="materia" value=" Lenguajes de Alto Nivel  " data-semestre="2 3 4 5 6 7 8 9">
+            Lenguajes de Alto Nivel
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="materia" value=" Programacion con Nuevas Tecnologias  " data-semestre="2 3 4 5 6 7 8 9">
+            Programacion con Nuevas Tecnologias
+        </label><br>
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+        <h3>Area Metodologicas</h3>
+        <label>
+            <input type="checkbox" name="materia" value=" Comunicacion Oral y Escrita " data-semestre="2 3 4 5 6 7 8 9">
+            Comunicacion Oral y Escrita
+        </label><br>
+
+
+        <label>
+            <input type="checkbox" name="materia" value=" Metologia de las Investigacion " data-semestre="2 3 4 5 6 7 8 9">
+            Metologia de las Investigacion
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="materia" value="Emprendedores " data-semestre="2 3 4 5 6 7 8 9">
+            Emprendedores
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="materia" value=" Seminario Investigacion I " data-semestre="2 3 4 5 6 7 8 9">
+            Seminario Investigacion I
+        </label><br>
+
+
+        <label>
+            <input type="checkbox" name="materia" value=" Seminario Investigacion II " data-semestre="2 3 4 5 6 7 8 9">
+            Seminario Investigacion II 
+        </label><br>
+
+        
+        <label>
+            <input type="checkbox" name="materia" value=" Proyecto de  Investigacion " data-semestre="2 3 4 5 6 7 8 9">
+            Proyecto de  Investigacion 
+        </label><br>
+
+
+
+
+
+
+        <h3>  Optativas </h3>
+
+    
+        <label>
+            <input type="checkbox" name="materia" value=" Deontologia " data-semestre="2 3 4 5 6 7 8 9">
+            Deontologia
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="materia" value=" Etica Profesional " data-semestre="2 3 4 5 6 7 8 9">
+            Etica Profesional
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="materia" value=" Electronica " data-semestre="2 3 4 5 6 7 8 9">
+            Electronica
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="materia" value=" Logica " data-semestre="2 3 4 5 6 7 8 9">
+            Logica
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="materia" value=" Mantenimiento de laboratorios " data-semestre="2 3 4 5 6 7 8 9">
+            Mantenimiento de laboratorios
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="materia" value=" Liderazgo " data-semestre="2 3 4 5 6 7 8 9">
+            Liderazgo
+        </label><br>
+
+    
+        
+        
+        <!-- agregar opciones para otras materias -->
+    </fieldset>
+    <br>
+    <input type="button" value="Enviar" onclick="validarMaterias(event)">
+
+    <ul id="selected-materias"></ul>
+
+
+
+</form>
+
+<script src=experi.js></script>
+
+
+</body>
+</html>
